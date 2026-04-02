@@ -687,6 +687,18 @@ footer .copyright {
     display: inline-block;
     animation: scroll-text 10s linear infinite;
  }
+ #about-App {
+    text-align: center;
+ }
+ #about-App .video {
+    height: 100%;
+    margin-top: 3px auto 0 auto;
+ }
+ #about-App .video video {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+ }
 
 /*Start Media Query */
 @media (max-width:799px){
